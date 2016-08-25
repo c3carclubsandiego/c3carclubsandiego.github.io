@@ -1,0 +1,210 @@
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  text-align: center;
+  font-weight: bold;
+}
+
+.page-title {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 3rem;
+  text-align: center;
+  color: black;
+}
+
+.nav-bar {
+  text-align: center;
+  position: relative;
+  left: -21px;
+}
+
+.nav-bar ul {
+  text-align: center;
+  font-weight: bold;
+  display: inline;
+}
+
+.nav-bar li {
+  margin: 0;
+  padding: 20px;
+  display: inline;
+}
+
+.nav-bar a {
+  color: darkred;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+.jumbo-quote {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 200px;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+
+  background-image: url("https://raw.githubusercontent.com/AudioHouse/AudioHouse.github.io/master/_assets/banner1.jpg");
+  background-size: cover;
+}
+
+.about-us {
+  color: black;
+  border: 1px solid black;
+  font-weight: normal;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.page-description {
+  font-size: 1.5rem;
+}
+
+.board-members{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color:white;
+}
+
+.bio{
+  text-align: center;
+  max-width: 200px;
+  min-width: 200px;
+  background-color: lightgrey;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 10px;
+}
+
+.jumbo-community {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 200px;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+
+  background-image: url("https://raw.githubusercontent.com/AudioHouse/AudioHouse.github.io/master/_assets/communitypic.jpg");
+  background-size: cover;
+  background-position: 50% 52%;
+}
+
+.community-title {
+  margin-left: 120px;
+}
+
+.our-community {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: normal;
+  border: 1px solid black;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.jumbo-join-us {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 300px;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+
+  background-image: url("https://raw.githubusercontent.com/AudioHouse/AudioHouse.github.io/master/_assets/joinuspic.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.join-us-title {
+  margin-left: 120px;
+}
+
+.join-us {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: normal;
+  border: 1px solid black;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.gallery-title {
+  padding-left: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid black;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: white;
+}
+
+.gallery-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.thumbnail {
+
+}
+
+.back-to-top {
+  text-align: center;
+}
+
+.back-to-top a {
+  color: darkred;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+footer {
+  text-align: center;
+}
