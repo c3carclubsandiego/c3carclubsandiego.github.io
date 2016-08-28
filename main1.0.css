@@ -68,8 +68,8 @@ header {
   color: black;
   border: 1px solid black;
   font-weight: normal;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 60px;
+  margin-right: 60px;
   margin-top: 50px;
   margin-bottom: 50px;
   padding-left: 20px;
@@ -117,7 +117,7 @@ header {
 }
 
 .community-title {
-  margin-left: 120px;
+  margin-left: 80px;
 }
 
 .our-community {
@@ -125,8 +125,8 @@ header {
   font-size: 1.5rem;
   font-weight: normal;
   border: 1px solid black;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 60px;
+  margin-right: 60px;
   margin-top: 0px;
   margin-bottom: 50px;
   padding-left: 20px;
@@ -153,7 +153,7 @@ header {
 }
 
 .join-us-title {
-  margin-left: 120px;
+  margin-left: 80px;
 }
 
 .join-us {
@@ -161,8 +161,8 @@ header {
   font-size: 1.5rem;
   font-weight: normal;
   border: 1px solid black;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 60px;
+  margin-right: 60px;
   margin-top: 0px;
   margin-bottom: 50px;
   padding-left: 20px;
@@ -172,8 +172,8 @@ header {
 
 .gallery-title {
   padding-left: 20px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 .gallery {
@@ -181,8 +181,8 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   border: 1px solid black;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 60px;
+  margin-right: 60px;
   background-color: white;
 }
 
