@@ -49,6 +49,7 @@ header {
 
 .nav-bar a:hover {
   color: red;
+  text-shadow: 0px 0px 8px rgba(255,0,0, 0.6);
 }
 
 .nav-bar a:active {
@@ -215,6 +216,7 @@ header {
 
 .back-to-top a:hover {
   color: red;
+  text-shadow: 0px 0px 8px rgba(255,0,0, 0.6);
 }
 
 .back-to-top a:active {
