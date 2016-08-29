@@ -47,6 +47,14 @@ header {
 	text-decoration: none;
 }
 
+.nav-bar a:hover {
+  color: red;
+}
+
+.nav-bar a:active {
+  color: darkorange;
+}
+
 .jumbo-quote {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -203,6 +211,14 @@ header {
   color: darkred;
 	font-size: 1em;
 	text-decoration: none;
+}
+
+.back-to-top a:hover {
+  color: red;
+}
+
+.back-to-top a:active {
+  color: darkorange;
 }
 
 footer {
