@@ -4,14 +4,18 @@
   <title>C3 Car Club San Diego</title>
 
   <meta name="description" content="The San Diego Car Club for Dodge Challengers, Chevy Camaros, and Dodge Chargers." />
-
   <meta charset="utf-8"/>
   <link rel="stylesheet" type="text/css" href="main1.0.css">
   <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="myScript.js"></script>
+
 </head>
 
 <body>
 
+  <a name="home-top"></a>
   <header> <!-- Begin Header -->
     <img src="https://raw.githubusercontent.com/c3carclubsandiego/c3carclubsandiego.github.io/master/_assets/c3logo.png" alt="C3 Car Club San Diego" height="200" width="170" >
     <h1 class="page-title">C3 Car Club San Diego</h1>
@@ -19,11 +23,11 @@
 
   <nav class="nav-bar">
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#jumbo-quote-link">About Us</a></li>
-      <li><a href="#jumbo-community-link">Community</a></li>
-      <li><a href="#jumbo-join-us-link">Join Us</a></li>
-      <li><a href="#gallery-link">Gallery</a></li>
+      <li><a id="nav-home-link" href="#home-top">Home</a></li>
+      <li><a id="nav-about-link" href="#jumbo-quote-link">About Us</a></li>
+      <li><a id="nav-community-link" href="#jumbo-community-link">Community</a></li>
+      <li><a id="nav-join-us-link" href="#jumbo-join-us-link">Join Us</a></li>
+      <li><a id= "nav-gallery-link" href="#gallery-link">Gallery</a></li>
     </ul>
   </nav>
 
@@ -117,7 +121,7 @@
       </figure>
     </div>
 
-<h4 class="back-to-top"><a href="#">Back to Top</a></h4>
+<h4 class="back-to-top"><a href="#home-top">Back to Top</a></h4>
 
 <footer>
   <p>&copy; C3 Car Club San Diego</p>
