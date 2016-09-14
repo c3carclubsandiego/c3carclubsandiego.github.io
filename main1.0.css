@@ -73,13 +73,17 @@ header {
   background-size: cover;
 }
 
+.about-us-title {
+  margin-left: 80px;
+}
+
 .about-us {
   color: black;
   border: 1px solid black;
   font-weight: normal;
   margin-left: 60px;
   margin-right: 60px;
-  margin-top: 50px;
+  margin-top: 0px;
   margin-bottom: 50px;
   padding-left: 20px;
   padding-right: 20px;
