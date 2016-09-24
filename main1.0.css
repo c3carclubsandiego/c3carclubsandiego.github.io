@@ -184,9 +184,18 @@ header {
 }
 
 .gallery-title {
-  padding-left: 20px;
-  margin-left: 60px;
-  margin-right: 60px;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin: 30px;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.gallery-title p{
+  font-size: 1.5rem;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .gallery {
@@ -225,6 +234,43 @@ header {
 
 .back-to-top a:active {
   color: darkorange;
+}
+
+.lower-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lower-links a {
+  color: white;
+	font-size: 2rem;
+  font-weight: bold;
+	text-decoration: none;
+}
+
+.gallery-link {
+  margin: 25px;
+  padding: 40px;
+  background-color: darkred;
+}
+
+.gallery-link:hover {
+  margin: 25px;
+  padding: 40px;
+  background-color: red;
+}
+
+.video-link {
+  margin: 25px;
+  padding: 40px;
+  background-color: darkred;
+}
+
+.video-link:hover {
+  margin: 25px;
+  padding: 40px;
+  background-color: red;
 }
 
 footer {
