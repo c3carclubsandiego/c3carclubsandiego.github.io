@@ -29,6 +29,12 @@ header {
   left: -21px;
 }
 
+#homepage-nav {
+  text-align: center;
+  position: relative;
+  left: -2px;
+}
+
 .nav-bar ul {
   text-align: center;
   font-weight: bold;
@@ -261,6 +267,12 @@ header {
   background-color: red;
 }
 
+.gallery-link:active {
+  margin: 25px;
+  padding: 40px;
+  background-color: orange;
+}
+
 .video-link {
   margin: 25px;
   padding: 40px;
@@ -271,6 +283,12 @@ header {
   margin: 25px;
   padding: 40px;
   background-color: red;
+}
+
+.video-link:active {
+  margin: 25px;
+  padding: 40px;
+  background-color: orange;
 }
 
 footer {
