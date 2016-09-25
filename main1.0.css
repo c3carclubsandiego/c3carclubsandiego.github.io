@@ -76,7 +76,7 @@ header {
 
 .jumbo-quote {
   margin-top: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
   padding: 200px;
   text-align: center;
   font-size: 2rem;
@@ -136,7 +136,7 @@ header {
 
 .jumbo-community {
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
   padding: 200px;
   text-align: center;
   font-size: 2rem;
@@ -172,7 +172,7 @@ header {
 
 .jumbo-join-us {
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
   padding: 300px;
   text-align: center;
   font-size: 2rem;
