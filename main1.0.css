@@ -311,3 +311,31 @@ header {
 footer {
   text-align: center;
 }
+
+@media only screen and (max-device-width: 480px) {
+  header {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 90px;
+  }
+  .header-bar {
+    background-color: darkred;
+    position: fixed;
+    height: 90px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: 1000;
+  }
+  .nav-bar {
+    margin-top: 24px;
+    text-align: center;
+    position: relative;
+    left: -21px;
+  }
+  .nav-bar a {
+    color: white;
+  	font-size: 1.8em;
+  	text-decoration: none;
+  }
+}
