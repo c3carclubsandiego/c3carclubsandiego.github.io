@@ -16,6 +16,71 @@ header {
   margin-top: 70px;
 }
 
+/* The Mobile Slider Menu goes here */
+.slider-button {
+  visibility: hidden;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 70px;
+  height: 70px;
+  background-color: darkred;
+  border: 2px solid white;
+  z-index: 10001;
+}
+
+.line-container {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.box-line {
+  width: 50px;
+  height: 5px;
+  background-color: white;
+  margin: 5px;
+  margin-top: 13px;
+}
+
+.slider-menu {
+  visibility: hidden;
+  z-index: 999;
+  position: fixed;
+  top: 80px;
+  left: -600px;
+  -webkit-transition: left 0.5s; /* Safari */
+  transition: left 0.5s;
+  width: 60%;
+  height: 100%;
+  background-color: darkred;
+  color: white;
+  text-align: left;
+  box-shadow: 5px -10px 5px #222222;
+}
+
+.slider-menu.slideright {
+  -webkit-transition: left 0.5s; /* Safari */
+  transition: left 0.5s;
+  left: 0px;
+}
+
+.mobile-list {
+  list-style-type: none;
+  font-size: 4em;
+  font-weight: 400;
+}
+
+.mobile-list li {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.mobile-list a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Regular non-mobile CSS goes here */
 .header-bar {
   background-color: darkred;
   position: fixed;
@@ -312,11 +377,18 @@ footer {
   text-align: center;
 }
 
+/* Media Query for mobile adjustments */
 @media only screen and (max-device-width: 480px) {
   header {
     text-align: center;
     font-weight: bold;
     margin-top: 90px;
+  }
+  .slider-button {
+    visibility: visible;
+  }
+  .slider-menu {
+    visibility: visible;
   }
   .header-bar {
     background-color: darkred;
@@ -334,6 +406,7 @@ footer {
     left: -21px;
   }
   .nav-bar a {
+    visibility: hidden;
     color: white;
   	font-size: 1.8em;
   	text-decoration: none;

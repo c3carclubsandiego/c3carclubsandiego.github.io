@@ -9,7 +9,6 @@
   <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="myScript.js"></script>
 
 </head>
 
@@ -27,6 +26,29 @@
       </ul>
     </nav>
   </div>
+
+  <!-- Mobile Slider Bar goes here -->
+
+  <div class = "slider-button" id="slider-button" onclick="toggleShow()">
+    <div class = "line-container">
+      <div class = "box-line"></div>
+      <div class = "box-line"></div>
+      <div class = "box-line"></div>
+    </div>
+  </div>
+
+  <div class = "slider-menu" id="slider-menu">
+    <ul class = "mobile-list">
+      <li><a href="#home-top" onclick="toggleShow()">Home</a></li>
+      <li><a href="#jumbo-quote-link" onclick="toggleShow()">About Us</a></li>
+      <li><a href="#jumbo-community-link" onclick="toggleShow()">Community</a></li>
+      <li><a href="#jumbo-join-us-link" onclick="toggleShow()">Join Us</a></li>
+      <li><a href="gallery.html" onclick="toggleShow()">Gallery</a></li>
+      <li><a href="videos.html" onclick="toggleShow()">Videos</a><li>
+    </ul>
+  </div>
+
+  <!-- End of Mobile Slider Bar -->
 
   <a id="home-top"></a>
   <header> <!-- Begin Header -->
@@ -127,6 +149,8 @@
 <footer>
   <p>C3 Car Club San Diego Incorporated.</p>
 </footer>
+
+<script src="myScript.js"></script>
 
 </body>
 </html>
