@@ -9,7 +9,6 @@
   <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="myScript.js"></script>
 
 </head>
 
@@ -28,6 +27,28 @@
     </nav>
   </div>
 
+  <!-- Mobile Slider Bar goes here -->
+
+  <div class = "slider-button" id="slider-button" onclick="toggleShow()">
+    <div class = "line-container">
+      <div class = "box-line"></div>
+      <div class = "box-line"></div>
+      <div class = "box-line"></div>
+    </div>
+  </div>
+
+  <div class = "slider-menu" id="slider-menu">
+    <ul class = "mobile-list">
+      <li><a href="index.html#home-top" onclick="toggleShow()">Home</a></li>
+      <li><a href="index.html#jumbo-quote-link" onclick="toggleShow()">About Us</a></li>
+      <li><a href="index.html#jumbo-community-link" onclick="toggleShow()">Community</a></li>
+      <li><a href="index.html#jumbo-join-us-link" onclick="toggleShow()">Join Us</a></li>
+      <li><a href="gallery.html" onclick="toggleShow()">Gallery</a></li>
+    </ul>
+  </div>
+
+  <!-- End of Mobile Slider Bar -->
+
   <header> <!-- Begin Header -->
     <img src="https://raw.githubusercontent.com/c3carclubsandiego/c3carclubsandiego.github.io/master/_assets/c3logo.png" alt="C3 Car Club San Diego" height="200" width="170" >
     <h1 class="page-title">C3 Car Club San Diego</h1>
@@ -43,6 +64,8 @@
 <footer>
   <p>C3 Car Club San Diego Incorporated.</p>
 </footer>
+
+<script src="myScript.js"></script>
 
 </body>
 </html>
