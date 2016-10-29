@@ -1,19 +1,22 @@
 html, body {
   min-height: 100%;
+  min-width: 700px;
   display: flex;
   flex-direction: column;
   font-weight: 300;
   line-height: 1.5;
-}
-
-body {
   font-family: 'Lato', sans-serif;
+  background-color: #FFFFFF;
 }
 
 header {
   text-align: center;
   font-weight: bold;
   margin-top: 70px;
+}
+
+#home-top {
+  top: 0px;
 }
 
 /* The Mobile Slider Menu goes here */
@@ -103,13 +106,8 @@ header {
   margin-top: 18px;
   text-align: center;
   position: relative;
-  left: -21px;
-}
-
-#homepage-nav {
-  text-align: center;
-  position: relative;
   left: 0px;
+  min-width: 700px;
 }
 
 .nav-bar ul {
@@ -135,8 +133,12 @@ header {
   text-shadow: 0px 0px 8px rgba(255,0,0, 0.6);
 }
 
-.nav-bar a:active {
-  color: darkorange;
+#gallery-active {
+  color: red;
+}
+
+#video-active {
+  color: red;
 }
 
 .jumbo-quote {
@@ -271,12 +273,36 @@ header {
   padding-bottom: 20px;
 }
 
+.instagram-gallery-button {
+  width: 300px;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+.instagram-gallery-button a {
+  /*-webkit-appearance: button;
+  -moz-appearance: button;*/
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: darkred;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
 .gallery-title {
   color: black;
   font-size: 1.2rem;
   font-weight: normal;
   margin: 30px;
-  margin-top: 80px;
+  margin-top: 10px;
   text-align: center;
 }
 
