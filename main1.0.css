@@ -97,19 +97,18 @@ header {
 .social-bar {
   visibility: visible;
   position: fixed;
+  width: 100px;
   left: 0px;
   top: 5px;
-  width: 99%;
-  min-width: 800px;
   height: 47px;
   z-index: 1001;
 }
 
 .instagram-bar-link {
   position: absolute;
-  right: 60px;
-  margin-top: 5px;
-  padding: 20px;
+  right: 50px;
+  margin-top: 12px;
+  padding: 12px;
   background-image: url("https://raw.githubusercontent.com/c3carclubsandiego/c3carclubsandiego.github.io/master/_assets/insta-logo.png");
   background-size: cover;
 }
@@ -117,8 +116,8 @@ header {
 .facebook-bar-link {
   position: absolute;
   right: 10px;
-  margin-top: 5px;
-  padding: 20px;
+  margin-top: 12px;
+  padding: 12px;
   background-image: url("https://raw.githubusercontent.com/c3carclubsandiego/c3carclubsandiego.github.io/master/_assets/facebook-logo.png");
   background-size: cover;
 }
