@@ -94,6 +94,35 @@ header {
   z-index: 1000;
 }
 
+.social-bar {
+  visibility: visible;
+  position: fixed;
+  left: 0px;
+  top: 5px;
+  width: 99%;
+  min-width: 800px;
+  height: 47px;
+  z-index: 1001;
+}
+
+.instagram-bar-link {
+  position: absolute;
+  right: 60px;
+  background-color: blue;
+  margin-top: 5px;
+  padding: 20px;
+  background-image: url();
+}
+
+.facebook-bar-link {
+  position: absolute;
+  right: 10px;
+  background-color: darkblue;
+  margin-top: 5px;
+  padding: 20px;
+  background-image: url();
+}
+
 .page-title {
   margin-top: 0px;
   margin-bottom: 10px;
