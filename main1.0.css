@@ -111,6 +111,7 @@ header {
   margin-top: 5px;
   padding: 20px;
   background-image: url("https://raw.githubusercontent.com/c3carclubsandiego/c3carclubsandiego.github.io/master/_assets/insta-logo.png");
+  background-size: cover;
 }
 
 .facebook-bar-link {
@@ -119,6 +120,7 @@ header {
   margin-top: 5px;
   padding: 20px;
   background-image: url("https://raw.githubusercontent.com/c3carclubsandiego/c3carclubsandiego.github.io/master/_assets/facebook-logo.png");
+  background-size: cover;
 }
 
 .page-title {
