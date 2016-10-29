@@ -65,6 +65,7 @@ header {
   -webkit-transition: left 0.5s; /* Safari */
   transition: left 0.5s;
   left: 0px;
+  box-shadow: 20px -10px 50px #222222;
 }
 
 .mobile-list {
@@ -438,6 +439,9 @@ footer {
     text-align: center;
     font-weight: bold;
     margin-top: 90px;
+  }
+  .social-bar {
+    visibility: hidden;
   }
   .slider-button {
     visibility: visible;
