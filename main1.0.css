@@ -327,6 +327,10 @@ header {
   font-weight: bold;
 }
 
+.instagram-gallery-button a:hover {
+  background-color: #CC0000;
+}
+
 .gallery-title {
   color: black;
   font-size: 1.2rem;
